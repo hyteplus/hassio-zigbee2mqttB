@@ -1,7 +1,7 @@
 {
   "name": "Zigbee2MQTT",
   "version": "1.33.2-1",
-  "slug": "zigbee2mqtt-2",
+  "slug": "zigbee2mqtt-3",
   "description": "Use your ZigBee devices without the vendor's bridge or gateway",
   "uart": true,
   "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
@@ -34,7 +34,7 @@
     "8101/tcp": "Frontend tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt-2",
+    "data_path": "/config/zigbee2mqtt-3",
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
