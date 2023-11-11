@@ -5,7 +5,7 @@
 #base_topic多加一个2 以此类推
 
 #client_id多加一个2 以此类推
-
+123
 mqtt:
   base_topic: zigbee2mqtt2
   server: mqtt://localhost:1883
