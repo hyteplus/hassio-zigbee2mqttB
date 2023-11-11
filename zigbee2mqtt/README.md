@@ -23,7 +23,6 @@ serial:
 ```
 
 信道/channel:
-
 ```shell
 advanced:
   channel: 11
