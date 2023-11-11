@@ -1,6 +1,6 @@
 # Home Assistant Add-on: Zigbee2MQTT-2
 
-# MQTT
+MQTT
 #base_topic多加一个2 以此类推
 
 #client_id多加一个2 以此类推
@@ -14,7 +14,7 @@ mqtt:
   client_id: zigbee2mqtt2
 ```
 
-# 信道
+信道
 ```shell
 advanced:
   channel: 11 #信道要分开 选15 20 25
