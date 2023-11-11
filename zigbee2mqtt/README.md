@@ -23,7 +23,7 @@ port: tcp://[Gateway_IP]:[Port]
 channel:
 ```shell
 advanced:
-  channel: 11
+  channel: 15
   #信道要分开 防止干扰 选15 20 25
   #z2m网页UI设置步骤z2m设置→高级→ZigBee channel
 ```
