@@ -10,6 +10,7 @@ MQTT:
 mqtt:
   base_topic: zigbee2mqtt2
   server: mqtt://localhost:1883
+  #mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
   user: mqtt
   password: mqtt
   client_id: zigbee2mqtt2
