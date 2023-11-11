@@ -1,6 +1,7 @@
 # Home Assistant Add-on: Zigbee2MQTT-2
 
 MQTT
+
 #base_topic多加一个2 以此类推
 
 #client_id多加一个2 以此类推
