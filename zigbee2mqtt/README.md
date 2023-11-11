@@ -3,13 +3,13 @@
 MQTT:
 ```shell
 base_topic: zigbee2mqtt2
-#base_topic多加一个2 以此类推
+#base_topic多加一个2 区分多开主题
 server: mqtt://localhost:1883
 #mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
 user: mqtt
 password: mqtt
 client_id: zigbee2mqtt2
-#client_id多加一个2 以此类推
+#client_id多加一个2 区分多开mqtt客户端id
 ```
 
 网关适配器/serial:
