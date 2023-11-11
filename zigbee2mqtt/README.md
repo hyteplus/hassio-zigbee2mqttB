@@ -2,24 +2,22 @@
 
 MQTT:
 ```shell
-mqtt:
-  base_topic: zigbee2mqtt2
-  #base_topic多加一个2 以此类推
-  server: mqtt://localhost:1883
-  #mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
-  user: mqtt
-  password: mqtt
-  client_id: zigbee2mqtt2
-  #client_id多加一个2 以此类推
+base_topic: zigbee2mqtt2
+#base_topic多加一个2 以此类推
+server: mqtt://localhost:1883
+#mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
+user: mqtt
+password: mqtt
+client_id: zigbee2mqtt2
+#client_id多加一个2 以此类推
 ```
 
 网关适配器/serial:
 ```shell
-serial:
-  adapter: ezsp
-  port: tcp://[Gateway_IP]:[Port]
- #多模和企业版端口8888 多模自动版端口6638
- #多模自动版域名: port: tcp://tube-zb-gw-efr32-xxxxxx.local:6638 
+adapter: ezsp
+port: tcp://[Gateway_IP]:[Port]
+#多模和企业版端口8888 多模自动版端口6638
+#多模自动版域名: port: tcp://tube-zb-gw-efr32-xxxxxx.local:6638 
 ```
 
 信道/channel:
