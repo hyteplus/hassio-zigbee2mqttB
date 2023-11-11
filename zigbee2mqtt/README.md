@@ -12,7 +12,7 @@ client_id: zigbee2mqtt2
 #client_id多加一个2 区分多开mqtt客户端id
 ```
 
-网关适配器/serial:
+serial:
 ```shell
 adapter: ezsp
 port: tcp://[Gateway_IP]:[Port]
