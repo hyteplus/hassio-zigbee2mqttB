@@ -1,19 +1,16 @@
 # Home Assistant Add-on: Zigbee2MQTT-2
 
 MQTT:
-
-base_topic多加一个2 以此类推
-
-client_id多加一个2 以此类推
-
 ```shell
 mqtt:
   base_topic: zigbee2mqtt2
+  #base_topic多加一个2 以此类推
   server: mqtt://localhost:1883
   #mqtt在Home Assistantaz 安装，localhost是Home Assistantaz的ip,端口1883
   user: mqtt
   password: mqtt
   client_id: zigbee2mqtt2
+  #client_id多加一个2 以此类推
 ```
 
 网关适配器/serial:
@@ -27,10 +24,10 @@ serial:
 
 信道/channel:
 
-信道要岔开，防止干扰
 ```shell
 advanced:
   channel: 11
-  #信道要分开 选15 20 25
+  #信道要分开 防止干扰 选15 20 25
+
   #z2m网页UI设置步骤z2m设置→高级→ZigBee channel
 ```
