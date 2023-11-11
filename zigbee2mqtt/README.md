@@ -25,7 +25,7 @@ serial:
  #多模自动版域名: port: tcp://tube-zb-gw-efr32-xxxxxx.local:6638 
 ```
 
-信道:
+信道/channel:
 ```shell
 advanced:
   channel: 11
