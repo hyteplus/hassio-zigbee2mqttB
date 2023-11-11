@@ -108,5 +108,5 @@ venv.bak/
 
 secrets.json
 
-zigbee2mqtt/rootfs
+zigbee2mqtt-2/rootfs
 zigbee2mqtt-edge/rootfs
