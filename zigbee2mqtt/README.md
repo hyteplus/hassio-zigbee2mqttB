@@ -2,9 +2,9 @@
 
 MQTT:
 
-#base_topic多加一个2 以此类推
+base_topic多加一个2 以此类推
 
-#client_id多加一个2 以此类推
+client_id多加一个2 以此类推
 
 ```shell
 mqtt:
@@ -26,6 +26,7 @@ serial:
 ```
 
 信道/channel:
+信道/channel信道要岔开，防止干扰
 ```shell
 advanced:
   channel: 11
