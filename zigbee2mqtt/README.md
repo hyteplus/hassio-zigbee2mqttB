@@ -26,7 +26,8 @@ serial:
 ```
 
 信道/channel:
-信道/channel信道要岔开，防止干扰
+
+信道要岔开，防止干扰
 ```shell
 advanced:
   channel: 11
