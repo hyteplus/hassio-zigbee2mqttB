@@ -28,6 +28,5 @@ serial:
 advanced:
   channel: 11
   #信道要分开 防止干扰 选15 20 25
-
   #z2m网页UI设置步骤z2m设置→高级→ZigBee channel
 ```
