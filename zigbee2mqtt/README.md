@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Zigbee2MQTT-1
+# Home Assistant Add-on: Zigbee2MQTT-2
 
 <div align="center">
     <div style="display: flex;">
