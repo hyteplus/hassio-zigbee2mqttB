@@ -1,3 +1,5 @@
+## 1.42.0-2
+- Attempt to fix https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/issues/664
 ## 1.40.2-1
 - Updated Zigbee2MQTT to version [`1.40.2`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.2)
 ## 1.40.1
