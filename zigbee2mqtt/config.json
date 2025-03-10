@@ -1,5 +1,5 @@
 {
-  "name": "Zigbee2MQTT-2",
+  "name": "Zigbee2mqttB",
   "version": "2.0.0-2",
   "slug": "zigbee2mqtt",
   "description": "Use your ZigBee devices without the vendor's bridge or gateway",
@@ -34,7 +34,7 @@
     "8101/tcp": "Frontend tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt-2",
+    "data_path": "/config/zigbee2mqttB",
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
@@ -65,7 +65,7 @@
     },
     "serial": {
       "port": "str?",
-      "adapter": "match(zstack|deconz|zigate|ezsp)?",
+      "adapter": "match(ember|zstack|deconz|zigate|ezsp)?",
       "baudrate": "int?",
       "rtscts": "bool?"
     }
